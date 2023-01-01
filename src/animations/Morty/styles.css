@@ -1,0 +1,17 @@
+.mortyAnimation {
+  margin: auto;
+  width: 5rem;
+  animation: appear 1.5s linear;
+}
+
+@keyframes appear {
+  from {
+    transform: translatey(50vw);
+  }
+}
+
+@media (min-width: 768px) {
+  .mortyAnimation {
+    width: auto;
+  }
+}

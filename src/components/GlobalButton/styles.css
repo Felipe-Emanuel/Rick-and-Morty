@@ -1,0 +1,27 @@
+.globalButton {
+  all: unset;
+  background-color: #69c8ec;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 1rem;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.globalButton:hover {
+  background-color: #b7e4f9;
+  transition: all 300ms ease-in-out;
+}
+
+.globalButton:disabled {
+  background-color: #fb6467ff;
+  cursor: not-allowed;
+  color: #fff;
+  font-size: 12px;
+}
+
+.globalButton:disabled:hover {
+  background-color: #fb646799;
+}

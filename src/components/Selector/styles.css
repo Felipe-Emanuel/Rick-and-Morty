@@ -1,0 +1,43 @@
+.selector_no-loading {
+  overflow-x: hidden;
+  padding: 1rem;
+}
+
+.selector_overflow-hidden {
+  overflow: hidden;
+}
+
+.selector_loading {
+  overflow: hidden;
+  height: 100%;
+  left: 50rem;
+}
+
+.selector__options {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 15rem;
+  color: #fff;
+}
+
+.selector_header {
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.selector__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.selector__subtitle {
+  text-align: center;
+  padding: 1rem;
+}
+
+.selector__text_isMorty {
+  text-align: center;
+}

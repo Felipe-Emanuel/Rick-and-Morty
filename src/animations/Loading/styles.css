@@ -1,0 +1,14 @@
+.loadingAnimation {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  transform: scale(1.2);
+}
+
+@media (min-width: 1024px) {
+  .loadingAnimation {
+    width: 25%;
+    bottom: -8rem;
+    transform: scale(4);
+  }
+}
